@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 150px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#result.success {
+    color: green;
+}
+
+#result.error {
+    color: red;
+}
